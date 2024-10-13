@@ -3,19 +3,6 @@
 import { useItems } from "./context/Itemprovider";
 import ItemRow from "./ItemRow";
 
-// interface Product {
-//   id: string;
-//   image: string;
-//   name: string;
-//   status: string;
-//   price: string;
-//   totalSales: number;
-//   createdAt: string;
-// }
-
-// interface ProductTableProps {
-//   products: Product[];
-// }
 
 const ProductTable = () => {
   const { products } = useItems();
