@@ -9,18 +9,6 @@ interface GodownData {
     parent_godown: string
 }
 
-// interface ItemProp {
-//   item_id: string,
-//   name: string,
-//   quantity: number,
-//   categroy: string,
-//   price: number,
-//   status: string,
-//   godown_id: string,
-//   brand: string,
-//   attributes: object,
-//   image_url: string
-// }
 
 export default function Location({id, name }: {id: string, name: String }) {
     const [godowns, setGodowns] = useState<GodownData[]>([]);
